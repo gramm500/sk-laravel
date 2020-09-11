@@ -20,6 +20,6 @@ class News extends Model
      * @var string[]
      */
     protected $fillable = [
-        'title', 'news_text', 'preview', 'user_id', 'image'
+        'title', 'text', 'preview', 'user_id', 'image'
     ];
 }
